@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoralNest Realty - Premium Properties in India</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-container">
+                    <div class="logo-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h2>CoralNest Realty</h2>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trending">Properties</a></li>
+                <li><a href="#search">Search</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Slideshow -->
+    <section id="home" class="hero">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="https://images.unsplash.com/photo-1565182999561-18d7dc61c393?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+                    alt="Luxury Estate">
+                <div class="slide-content">
+                    <h1>Luxurious Living Awaits</h1>
+                    <p>Premium properties across India</p>
+                    <a href="#trending" class="cta-button">Explore Luxury</a>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+                    alt="Elite Residence">
+                <div class="slide-content">
+                    <h1>Elite Residences</h1>
+                    <p>Experience luxury living with CoralNest Realty's premium developments</p>
+                    <a href="#trending" class="cta-button">View Collection</a>
+                </div>
+            </div>
+            <div class="slide fade">
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+                    alt="Premium Villa">
+                <div class="slide-content">
+                    <h1>Exclusive Investments</h1>
+                    <p>Invest in prestigious properties for guaranteed returns</p>
+                    <a href="#trending" class="cta-button">Invest Now</a>
+                </div>
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <!-- Trending Properties Section -->
+    <section id="trending" class="trending">
+        <div class="container">
+            <h2>Trending Properties</h2>
+            <p class="section-subtitle">Discover exclusive developments in India's prime locations</p>
+            <div class="properties-grid">
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80"
+                            alt="Elegant Residence">
+                    </div>
+                    <div class="property-content">
+                        <button class="visit-btn" onclick="scrollToContact()">Visit Us</button>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80"
+                            alt="Penthouse View">
+                    </div>
+                    <div class="property-content">
+                        <button class="visit-btn" onclick="scrollToContact()">Visit Us</button>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=2069&auto=format&fit=crop"
+                            alt="Modern Interiors">
+                    </div>
+                    <div class="property-content">
+                        <button class="visit-btn" onclick="scrollToContact()">Visit Us</button>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=2069&auto=format&fit=crop"
+                            alt="Skyline Towers">
+                    </div>
+                    <div class="property-content">
+                        <button class="visit-btn" onclick="scrollToContact()">Visit Us</button>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=2069&auto=format&fit=crop"
+                            alt="Garden Villas">
+                    </div>
+                    <div class="property-content">
+                        <button class="visit-btn" onclick="scrollToContact()">Visit Us</button>
+                    </div>
+                </div>
+
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1430285561322-7808604715df?q=80&w=2069&auto=format&fit=crop"
+                            alt="Lakefront Homes">
+                    </div>
+                    <div class="property-content">
+                        <button class="visit-btn" onclick="scrollToContact()">Visit Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search by City Section -->
+    <section id="search" class="search-section">
+        <div class="container">
+            <h2>Search Properties by Location</h2>
+            <p class="section-subtitle">Find your perfect property in your preferred location</p>
+
+            <div class="search-container">
+                <div class="search-box">
+                    <select id="citySelect" class="city-select">
+                        <option value="">Select a Location</option>
+                        <option value="premium">Premium Properties</option>
+                        <option value="luxury">Luxury Properties</option>
+                        <option value="modern">Modern Properties</option>
+                        <option value="heritage">Heritage Properties</option>
+                        <option value="commercial">Commercial Properties</option>
+                        <option value="residential">Residential Properties</option>
+                    </select>
+                    <button onclick="searchProperties()" class="search-btn">Search Properties</button>
+                </div>
+            </div>
+
+            <div class="cities-grid">
+                <div class="city-card" onclick="selectCity('gurgaon')">
+                    <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=2070&auto=format&fit=crop"
+                        alt="Gurgaon Skyline">
+                    <div class="city-content">
+                        <p>Premium Residential & Commercial Hub</p>
+                        <span class="property-count">1,250+ Properties Available</span>
+                        <span class="property-type">Luxury Villas • Premium Apartments • Office Spaces</span>
+                    </div>
+                </div>
+
+                <div class="city-card" onclick="selectCity('mumbai')">
+                    <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2069&auto=format&fit=crop"
+                        alt="Mumbai City">
+                    <div class="city-content">
+                        <p>Financial Capital & Luxury Living Destination</p>
+                        <span class="property-count">2,100+ Properties Available</span>
+                        <span class="property-type">Sea View Apartments • Penthouses • Commercial Towers</span>
+                    </div>
+                </div>
+
+                <div class="city-card" onclick="selectCity('bangalore')">
+                    <img src="https://images.unsplash.com/photo-1550684376-efcbd6e3f031?q=80&w=2069&auto=format&fit=crop"
+                        alt="Bangalore Homes">
+                    <div class="city-content">
+                        <p>Tech Hub & Modern Living Spaces</p>
+                        <span class="property-count">1,800+ Properties Available</span>
+                        <span class="property-type">Smart Homes • IT Parks • Gated Communities</span>
+                    </div>
+                </div>
+
+                <div class="city-card" onclick="selectCity('delhi')">
+                    <img src="https://images.unsplash.com/photo-1554995207-c18c203602cb?q=80&w=2069&auto=format&fit=crop"
+                        alt="Delhi Residences">
+                    <div class="city-content">
+                        <p>Capital City & Heritage Living</p>
+                        <span class="property-count">1,950+ Properties Available</span>
+                        <span class="property-type">Heritage Homes • Modern Apartments • Business Centers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p class="section-subtitle">Get in touch with our real estate experts</p>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Office Address</h4>
+                            <p>CoralNest Realty<br>
+                                DLF Cyber City, Building 10-B<br>
+                                Gurgaon, Haryana 122002</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone Number</h4>
+                            <p>07935460216</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Address</h4>
+                            <p>hello@coralnestrealty.in</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Monday - Saturday: 9:00 AM - 7:00 PM<br>
+                                Sunday: 10:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <label for="consent">By submitting this form, you hereby grant us permission to contact you via
+                            SMS, WhatsApp, RCS, email, and any other channel for property-related
+                            communications.</label>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the <a href="terms.html" target="_blank">Terms and Conditions</a>
+                            and <a href="privacy.html" target="_blank">Privacy Policy</a></label>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>CoralNest Realty</h3>
+                    <p>Your trusted partner in luxury real estate. We specialize in premium residential and commercial
+                        properties across India's prime locations.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#trending">Properties</a></li>
+                        <li><a href="#search">Search</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Our Commitment</h4>
+                    <ul>
+                        <li>Transparent Pricing</li>
+                        <li>Quality Assurance</li>
+                        <li>24/7 Support</li>
+                        <li>Legal Compliance</li>
+                        <li>Customer Satisfaction</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info-footer">
+                        <p><i class="fas fa-map-marker-alt"></i> DLF Cyber City, Building 10-B, Gurgaon, Haryana 122002
+                        </p>
+                        <p><i class="fas fa-phone"></i> 07935460216</p>
+                        <p><i class="fas fa-envelope"></i> hello@coralnestrealty.in</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 CoralNest Realty. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="privacy.html" target="_blank">Privacy Policy</a>
+                        <a href="terms.html" target="_blank">Terms & Conditions</a>
+                        <a href="rcs.html" target="_blank">RCS Acknowledgement</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float" onclick="openWhatsApp()">
+        <i class="fab fa-whatsapp"></i>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
