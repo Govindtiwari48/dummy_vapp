@@ -76,7 +76,7 @@ function searchProperties() {
 
 // WhatsApp integration
 function openWhatsApp() {
-    const phoneNumber = '912066442200';
+    const phoneNumber = '+918121297165';
     const message = 'Hello! I am interested in your properties. Please provide more information.';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
@@ -188,7 +188,7 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
 // Simulate email notification
 function sendEmailNotification(name, email, phone, inquiry, message, consent) {
     console.log('Email notification sent to:', {
-        to: 'hello@ambernest.in',
+        to: 'Vishal@newlaunch-india.com',
         subject: `New ${inquiry} Inquiry from ${name}`,
         body: `
             Name: ${name}
