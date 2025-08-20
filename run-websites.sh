@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# Script to run 5 websites on ports 5000-5004
+# Script to run 5 websites on ports 5001-5005
 # Usage: ./run-websites.sh [start|stop|restart]
 
 # Define the website directories and their corresponding ports
 WEBSITES=(
-    "vapp_pro_ind_co:5000"
-    "Vapp_new_ind_com:5001"
-    "vapp_lux_pro_ncr_com:5002"
-    "Vapp_lux_pro_ncr_co:5003"
-    "Vapp_lux_pro_ind_co_in:5004"
+    "vapp_pro_ind_co:5001"
+    "Vapp_new_ind_com:5002"
+    "vapp_lux_pro_ncr_com:5003"
+    "Vapp_lux_pro_ncr_co:5004"
+    "Vapp_lux_pro_ind_co_in:5005"
 )
 
 # Color codes for output
@@ -120,7 +120,7 @@ case "${1:-start}" in
         echo "Usage: $0 [start|stop|restart|status]"
         echo ""
         echo "Commands:"
-        echo "  start   - Start all websites on ports 5000-5004"
+        echo "  start   - Start all websites on ports 5001-5005"
         echo "  stop    - Stop all running websites"
         echo "  restart - Restart all websites"
         echo "  status  - Show running status of all websites"
