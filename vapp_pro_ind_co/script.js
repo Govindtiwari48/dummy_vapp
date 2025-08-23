@@ -414,7 +414,7 @@ function enhancedSearchProperties() {
 
 // Initialize the website
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('Crimson Crest Realty website loaded successfully!');
+    console.log('Premium Projects - India website loaded successfully!');
 
     // Add loading animation to sections
     const sections = document.querySelectorAll('section');

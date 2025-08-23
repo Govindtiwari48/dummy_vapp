@@ -90,7 +90,7 @@ function scrollToContact() {
 }
 
 // Google Sheets Integration
-const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbynZYm4aAmberNestStubExec/exec';
+const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbynZYm4aNew Luxury Projects - IndiaStubExec/exec';
 
 // Contact form handling
 document.getElementById('contactForm').addEventListener('submit', function (e) {
@@ -414,7 +414,7 @@ function enhancedSearchProperties() {
 
 // Initialize the website
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('AmberNest Properties website loaded successfully!');
+    console.log('New Luxury Projects - India Properties website loaded successfully!');
 
     // Add loading animation to sections
     const sections = document.querySelectorAll('section');

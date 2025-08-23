@@ -414,7 +414,7 @@ function enhancedSearchProperties() {
 
 // Initialize the website
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('Aurora Estates website loaded successfully!');
+    console.log('Luxury Projects - NCR website loaded successfully!');
 
     // Add loading animation to sections
     const sections = document.querySelectorAll('section');
