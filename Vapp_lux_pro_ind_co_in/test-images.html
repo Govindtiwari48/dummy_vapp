@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Path Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .test-image {
+            margin: 20px;
+            border: 2px solid #ccc;
+            padding: 10px;
+        }
+
+        img {
+            max-width: 300px;
+            height: auto;
+        }
+
+        .success {
+            color: green;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Image Path Test - Verifying Fixed Paths</h1>
+    
+    <p><strong>Note:</strong> This test file should be placed inside one of the project directories (e.g., Vapp_lux_pro_ind_co_in/) to work correctly.</p>
+
+    <div class="test-image">
+        <h3>Test 1: Image 1.jpg</h3>
+        <p>Path: Images_vapp_dummy5/1.jpg</p>
+        <img src="Images_vapp_dummy5/1.jpg" alt="Test Image 1"
+            onload="this.parentElement.innerHTML += '<p class=\'success\'>✓ Image loaded successfully!</p>'"
+            onerror="this.parentElement.innerHTML += '<p class=\'error\'>✗ Failed to load image</p>'">
+    </div>
+
+    <div class="test-image">
+        <h3>Test 2: Image 17.webp</h3>
+        <p>Path: Images_vapp_dummy5/17.webp</p>
+        <img src="Images_vapp_dummy5/17.webp" alt="Test Image 17"
+            onload="this.parentElement.innerHTML += '<p class=\'success\'>✓ Image loaded successfully!</p>'"
+            onerror="this.parentElement.innerHTML += '<p class=\'error\'>✗ Failed to load image</p>'">
+    </div>
+
+    <div class="test-image">
+        <h3>Test 3: Image 19.jpg</h3>
+        <p>Path: Images_vapp_dummy5/19.jpg</p>
+        <img src="Images_vapp_dummy5/19.jpg" alt="Test Image 19"
+            onload="this.parentElement.innerHTML += '<p class=\'success\'>✓ Image loaded successfully!</p>'"
+            onerror="this.parentElement.innerHTML += '<p class=\'error\'>✗ Failed to load image</p>'">
+    </div>
+
+    <div class="test-image">
+        <h3>Test 4: Image 23.jpg</h3>
+        <p>Path: Images_vapp_dummy5/23.jpg</p>
+        <img src="Images_vapp_dummy5/23.jpg" alt="Test Image 23"
+            onload="this.parentElement.innerHTML += '<p class=\'success\'>✓ Image loaded successfully!</p>'"
+            onerror="this.parentElement.innerHTML += '<p class=\'error\'>✗ Failed to load image</p>'">
+    </div>
+
+    <h2>Summary</h2>
+    <p>This test file verifies that the image paths are working correctly after fixing the relative path issues.</p>
+    <p>If you see green checkmarks, the images are loading successfully.</p>
+    <p>If you see red X marks, there are still path issues to resolve.</p>
+    
+    <h2>How to Test</h2>
+    <p>1. Copy this test file into any project directory (e.g., Vapp_lux_pro_ind_co_in/)</p>
+    <p>2. Open it in your browser from that location</p>
+    <p>3. The images should load successfully with the new relative paths</p>
+</body>
+
+</html>
