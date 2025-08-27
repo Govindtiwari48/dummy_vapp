@@ -74,14 +74,6 @@ function searchProperties() {
     }
 }
 
-// WhatsApp integration
-function openWhatsApp() {
-    const phoneNumber = '+918121297165';
-    const message = 'Hello! I am interested in your properties. Please provide more information.';
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(whatsappUrl, '_blank');
-}
-
 // Scroll to contact section
 function scrollToContact() {
     document.getElementById('contact').scrollIntoView({
