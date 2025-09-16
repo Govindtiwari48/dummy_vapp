@@ -82,7 +82,7 @@ function scrollToContact() {
 }
 
 // Google Sheets Integration
-const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbynZYm4aAzureHabitatsStubExec/exec';
+const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbynZYm4aCoralNestStubExec/exec';
 
 // Contact form handling
 document.getElementById('contactForm').addEventListener('submit', function (e) {
@@ -180,7 +180,7 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
 // Simulate email notification
 function sendEmailNotification(name, email, phone, inquiry, message, consent) {
     console.log('Email notification sent to:', {
-        to: 'himanshu@luxuryprojectsncr.com',
+        to: 'anurag@luxuryprojectsindia.co.in',
         subject: `New ${inquiry} Inquiry from ${name}`,
         body: `
             Name: ${name}
@@ -406,7 +406,7 @@ function enhancedSearchProperties() {
 
 // Initialize the website
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('Luxury Projects - NCR Commercial website loaded successfully!');
+    console.log('Luxury Projects - India website loaded successfully!');
 
     // Add loading animation to sections
     const sections = document.querySelectorAll('section');

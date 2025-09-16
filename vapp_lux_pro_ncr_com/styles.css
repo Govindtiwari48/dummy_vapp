@@ -1,11 +1,11 @@
 /* Reset and Base Styles */
 :root {
-    --primary-color: #0FB9B1;
-    --secondary-color: #0A3D62;
-    --accent-color: #E6FFFB;
-    --text-color: #1F2D3D;
-    --border-color: #9BE7E0;
-    --gold-accent: #C9A227;
+    --primary-color: #FF6F61;
+    --secondary-color: #2C3E50;
+    --accent-color: #FFF0EC;
+    --text-color: #2F2F2F;
+    --border-color: #FFB3AB;
+    --gold-accent: #E0A106;
 }
 
 * {
@@ -57,7 +57,7 @@ body {
 .logo-icon {
     width: 40px;
     height: 40px;
-    background: linear-gradient(135deg, #0FB9B1, #00B8D9);
+    background: linear-gradient(135deg, #FF6F61, #FF8A75);
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -383,7 +383,7 @@ body {
 .visit-btn {
     width: 100%;
     padding: 15px 30px;
-    background: linear-gradient(135deg, #0FB9B1, #00B8D9);
+    background: linear-gradient(135deg, #FF6F61, #E85D50);
     color: white;
     border: none;
     border-radius: 25px;
@@ -397,8 +397,8 @@ body {
 
 .visit-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(15, 185, 177, 0.35);
-    background: linear-gradient(135deg, #0A3D62, #0FB9B1);
+    box-shadow: 0 5px 15px rgba(255, 111, 97, 0.35);
+    background: linear-gradient(135deg, #E85D50, #FF6F61);
 }
 
 /* Search Section */
@@ -447,7 +447,7 @@ body {
 }
 
 .search-btn:hover {
-    background: #0A3D62;
+    background: #d94841;
 }
 
 .cities-grid {
@@ -617,7 +617,7 @@ body {
 }
 
 .submit-btn:hover {
-    background: #0A3D62;
+    background: #d94841;
 }
 
 /* Footer */
@@ -984,7 +984,7 @@ html {
 
 /* Page Header Styles */
 .page-header {
-    background: linear-gradient(135deg, #0FB9B1, #00B8D9);
+    background: linear-gradient(135deg, #FF6F61, #E85D50);
     color: white;
     padding: 120px 0 80px;
     text-align: center;

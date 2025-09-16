@@ -82,7 +82,7 @@ function scrollToContact() {
 }
 
 // Google Sheets Integration
-const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbynZYm4aNew Luxury Projects - IndiaStubExec/exec';
+const GOOGLE_SHEETS_URL = 'https://script.google.com/macros/s/AKfycbynZYm4aAuroraStubChangeExec/exec';
 
 // Contact form handling
 document.getElementById('contactForm').addEventListener('submit', function (e) {
@@ -180,7 +180,7 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
 // Simulate email notification
 function sendEmailNotification(name, email, phone, inquiry, message, consent) {
     console.log('Email notification sent to:', {
-        to: 'Vishal@newlaunch-india.com',
+        to: 'Lakshya@luxuryprojectsncr.co',
         subject: `New ${inquiry} Inquiry from ${name}`,
         body: `
             Name: ${name}
@@ -406,7 +406,7 @@ function enhancedSearchProperties() {
 
 // Initialize the website
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('New Luxury Projects - India Properties website loaded successfully!');
+    console.log('Luxury Projects - NCR website loaded successfully!');
 
     // Add loading animation to sections
     const sections = document.querySelectorAll('section');
