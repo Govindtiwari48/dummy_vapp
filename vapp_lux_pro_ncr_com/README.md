@@ -155,7 +155,7 @@ BNM/
 Edit the contact details in `index.html`:
 - Phone number: 07935460216
 - WhatsApp number: +91 86929 01132
-- Email address: piyush@luxuryprojectsncr.com
+- Email address: himanshu@luxuryprojectsncr.com
 - Office address: DLF Cyber City, Phase 2, Gurgaon, Haryana 122002
 - Working hours: Monday - Saturday: 9:00 AM - 7:00 PM, Sunday: 10:00 AM - 5:00 PM
 
@@ -236,7 +236,7 @@ Potential additions for a production website:
 - **Address**: DLF Cyber City, Phase 2, Gurgaon, Haryana 122002
 - **Phone**: 07935460216
 - **WhatsApp**: +91 86929 01132
-- **Email**: piyush@luxuryprojectsncr.com
+- **Email**: himanshu@luxuryprojectsncr.com
 - **Website**: www.elitepropertiesindia.com (fictional)
 - **Year**: 2025
 
