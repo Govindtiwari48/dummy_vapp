@@ -180,7 +180,7 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
 // Simulate email notification
 function sendEmailNotification(name, email, phone, inquiry, message, consent) {
     console.log('Email notification sent to:', {
-        to: 'himanshu@luxuryprojectsncr.com',
+        to: 'piyush@luxuryprojectsncr.com',
         subject: `New ${inquiry} Inquiry from ${name}`,
         body: `
             Name: ${name}
